@@ -145,6 +145,21 @@
     color: white;
 }
 
+.text-style-11 {
+    background-color:orange;
+    word-break: keep-all;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.text-style-12 {
+    word-break: keep-all;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
 .text-style-6 {
     word-break: keep-all;
     font-size: 40px;
@@ -7626,6 +7641,10 @@ textarea.form-control-lg {
     padding: 3rem !important;
 }
 
+.p-15 {
+    padding: 2rem !important;
+}
+
 .px-0 {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -11508,6 +11527,14 @@ header.masthead {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+back11 {
+    position: relative;
+    background-color: #343a40;
+    background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
 header.masthead:before {
     content: "";
     position: absolute;
@@ -11571,14 +11598,22 @@ header.masthead h1, header.masthead .h1 {
     max-width: 12rem;
     box-shadow: 0px 5px 5px 0px #adb5bd;
 }
+.call-to-a {
+    position: relative;
+    background-color: #343a40;
+    background: url("../assets/img/back1.png") no-repeat center center ;
+    background-size: cover;
+    padding-top: 40rem;
+    padding-bottom: 40rem;
+}
 
 .call-to-action {
     position: relative;
     background-color: #343a40;
     background: url("../assets/img/bg-masthead2.jpg") no-repeat center center;
     background-size: cover;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .call-to-action:before {
     content: "";
